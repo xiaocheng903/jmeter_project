@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="548" it="0" lt="548" ct="540" ts="1541586296295" s="true" lb="JDBC Request" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="20" sby="0" ng="1" na="1"/>
+<sample t="21" it="0" lt="19" ct="0" ts="1541586296867" s="true" lb="JDBC Request --2" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="53" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1541586296898" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="467" sby="0" ng="1" na="1"/>
+<httpSample t="436" it="0" lt="358" ct="202" ts="1541586297083" s="true" lb="HTTP请求" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="20606" sby="501" ng="1" na="1">
+  <httpSample t="383" it="0" lt="358" ct="202" ts="1541586297083" s="true" lb="http://192.168.1.248:31100/users/login" rc="302" rm="Found" tn="线程组 2-1" dt="text" by="415" sby="212" ng="1" na="1"/>
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1541586297468" s="true" lb="http://192.168.1.248:31100/" rc="302" rm="Found" tn="线程组 2-1" dt="text" by="417" sby="123" ng="1" na="1"/>
+  <httpSample t="42" it="0" lt="21" ct="4" ts="1541586297477" s="true" lb="http://qoajxbrms.diandainfo.com?redirect=http://qoancg.diandainfo.com" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="19774" sby="166" ng="1" na="1"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1541586297521" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="353" sby="0" ng="1" na="1"/>
+
+</testResults>

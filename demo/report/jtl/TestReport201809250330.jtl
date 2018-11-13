@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="436" it="0" lt="436" ct="421" ts="1537860627279" s="true" lb="JDBC Request" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="20" sby="0" ng="1" na="1"/>
+<sample t="24" it="0" lt="22" ct="0" ts="1537860627742" s="true" lb="JDBC Request --2" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="53" sby="0" ng="1" na="1"/>
+<sample t="2" it="0" lt="0" ct="0" ts="1537860627777" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="469" sby="0" ng="1" na="1"/>
+<httpSample t="205" it="0" lt="134" ct="99" ts="1537860627877" s="true" lb="HTTP请求" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="20265" sby="476" ng="1" na="1">
+  <httpSample t="165" it="0" lt="134" ct="99" ts="1537860627877" s="true" lb="http://192.168.1.248:31100/users/login" rc="302" rm="Found" tn="线程组 2-1" dt="text" by="421" sby="212" ng="1" na="1"/>
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1537860628044" s="true" lb="http://192.168.1.248:31100/" rc="302" rm="Found" tn="线程组 2-1" dt="text" by="317" sby="123" ng="1" na="1"/>
+  <httpSample t="30" it="0" lt="27" ct="0" ts="1537860628052" s="true" lb="http://192.168.1.248:31100/users/login?path=/" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="19527" sby="141" ng="1" na="1"/>
+</httpSample>
+<sample t="0" it="0" lt="0" ct="0" ts="1537860628086" s="true" lb="Debug Sampler" rc="200" rm="OK" tn="线程组 2-1" dt="text" by="353" sby="0" ng="1" na="1"/>
+
+</testResults>
